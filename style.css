@@ -21,7 +21,7 @@ h1 {
 h2.accordion {
     padding: 0px;
     margin: 0px 0px 5px 0px;
-    background: #11238f;
+    background: #6B0024;
     height: 46px;
     line-height: 46px;
     width: 400px;
@@ -34,7 +34,7 @@ h2.accordion {
 }
 
 h2.accordion a {
-    color: #d0d5f2;
+    color: #FFFFFF;
     text-decoration: none;
     padding-left: 20px;
     display: block;
@@ -45,7 +45,7 @@ h2.accordion a {
 
 h2.accordion a:hover {
     color: #FFFFFF;
-    background: #4B59B2;
+    background: #990033;
     border: 1px solid #ffffff;
     text-shadow: 0px -1px 1px #000000;
 }
@@ -70,10 +70,10 @@ h2.accordion a:hover {
 	color-stop(0.5, #051054),
 	color-stop(1, #051054)
 );
-    background: -webkit-linear-gradient(left, rgba(5,16,84,1) , rgba(0,0,0,0.5)); /* For Safari 5.1 to 6.0 */
-    background:     -o-linear-gradient(right, rgba(5,16,84,1) , rgba(0,0,0,0.5)); /* For Opera 11.1 to 12.0 */
-    background:   -moz-linear-gradient(right, rgba(5,16,84,1) , rgba(0,0,0,0.5)); /* For Firefox 3.6 to 15 */
-    background:     linear-gradient(to right, rgba(5,16,84,1) , rgba(0,0,0,0.5)); /* Standard syntax (must be last) */
+    background: -webkit-linear-gradient(left, rgba(92, 0, 31, 1) , rgba(0,0,0,0.5)); /* For Safari 5.1 to 6.0 */
+    background:     -o-linear-gradient(right, rgba(92, 0, 31, 1) , rgba(0,0,0,0.5)); /* For Opera 11.1 to 12.0 */
+    background:   -moz-linear-gradient(right, rgba(92, 0, 31, 1) , rgba(0,0,0,0.5)); /* For Firefox 3.6 to 15 */
+    background:     linear-gradient(to right, rgba(92, 0, 31, 1) , rgba(0,0,0,0.5)); /* Standard syntax (must be last) */
 
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -103,9 +103,8 @@ p {
 .images {
     display: inline;
 }
-
-#adcovideo {
-    margin-left: 7%;
+iframe {
+    margin-left: 2%;
     margin-bottom: 2%;
     margin-top: 2%;
 }
