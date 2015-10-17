@@ -1,0 +1,115 @@
+body {
+    background-image: url('earth1.png');
+    overflow: hidden;
+}
+
+#wrapper {
+    margin: 100px auto;
+    width: 800px;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: helvetica, arial, sans-serif;
+    text-shadow: 0px 1px 2px #333;
+    color: #FFFFFF;
+    text-aligned: cented;
+    padding: 5px;
+    margin: 0px;
+}
+
+h2.accordion {
+    padding: 0px;
+    margin: 0px 0px 5px 0px;
+    background: #11238f;
+    height: 46px;
+    line-height: 46px;
+    width: 400px;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: 0px 1px 3px #4b59b2;
+}
+
+h2.accordion a {
+    color: #d0d5f2;
+    text-decoration: none;
+    padding-left: 20px;
+    display: block;
+    font-family: myriad pro, helvetica, arial;
+    text-shadow: 0px -1px 1px #000000;
+    border-radius: 5px;
+}
+
+h2.accordion a:hover {
+    color: #FFFFFF;
+    background: #4B59B2;
+    border: 1px solid #ffffff;
+    text-shadow: 0px -1px 1px #000000;
+}
+
+
+
+
+.accContainer {
+    margin: 5px 20px; 20px 20px;
+    padding: 0px;
+    overflow: hidden;
+    font-size: 15px;
+    font-family: helvetica, arial, sans-serif;
+    color: #D0D5F2;
+    width: 900px;
+    clear: both;
+    background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #051054),
+	color-stop(0.5, #051054),
+	color-stop(1, #051054)
+);
+    background: -webkit-linear-gradient(left, rgba(5,16,84,1) , rgba(0,0,0,0.5)); /* For Safari 5.1 to 6.0 */
+    background:     -o-linear-gradient(right, rgba(5,16,84,1) , rgba(0,0,0,0.5)); /* For Opera 11.1 to 12.0 */
+    background:   -moz-linear-gradient(right, rgba(5,16,84,1) , rgba(0,0,0,0.5)); /* For Firefox 3.6 to 15 */
+    background:     linear-gradient(to right, rgba(5,16,84,1) , rgba(0,0,0,0.5)); /* Standard syntax (must be last) */
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 1px 3px #ffffff;
+    
+    
+}
+
+.accContainer .block {
+    paddingL 20px;
+    
+
+    
+}
+
+p {
+    margin: 0px 0px 10px 10px;
+}
+
+.city {
+    margin-left: 45px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}
+
+.images {
+    display: inline;
+}
+
+#adcovideo {
+    margin-left: 7%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+/* {
+   border: 1px dashed #ffffff;
+}*/
