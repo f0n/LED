@@ -1,0 +1,5 @@
+If in git sheel see [Master]:
+
+git checkout -b gh-pages
+
+Then git push --set-upstream origin gh-pages
