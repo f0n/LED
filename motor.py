@@ -4,26 +4,56 @@ import time
 
 def init():
     gpio.setmode(gpio.BOARD)
-    gpio.setup(7, gpio.OUT)
+    gpio.cleanup()
+    gpio.setup(8, gpio.OUT)
+    gpio.setup(10, gpio.OUT)
     gpio.setup(11, gpio.OUT)
     gpio.setup(13, gpio.OUT)
-    gpio.setup(15, gpio.OUT)
-    gpio.output(7, True)
-    gpio.output(11, True)
+    gpio.cleanup()
 
-def forward(tf):
+def bck(tm):
+    gpio.output(8, True)
+    gpio.output(10, False)
+    gpio.output(11, False)
     gpio.output(13, True)
-    gpio.output(15, False)
-    time.sleep(tf)
+    time.sleep(tm)
+    gpio.cleanup()
 
-def reverse(tf):
+def fwd(tm):
+    gpio.output(8, False)
+    gpio.output(10, True)
+    gpio.output(11, True)
     gpio.output(13, False)
-    gpio.output(15, True)
-    time.sleep(tf)
+    time.sleep(tm)
+    gpio.cleanup()
+    
+def lft(tm):
+    gpio.output(8, True)
+    gpio.output(10, False)
+    gpio.output(11, True)
+    gpio.output(13, False)
+    time.sleep(tm)
+    gpio.cleanup()
 
-
+def rgt(tm):
+    gpio.output(8, False)
+    gpio.output(10, True)
+    gpio.output(11, True)
+    gpio.output(13, False)
+    time.sleep(tm)
+    gpio.cleanup()
+    
 init()
-forward(0.5)
-reverse(0.5)
+while True:
+    dxn=raw_input("Which way?")
+    if dxn=="f":
+        fwd(2)
+    elif dxn=="b":
+        bck(2)
+    elif dxn=="r":
+        rgt(2)
+    elif dxn=="l":
+        lft(2)
+    else:
+        pass
 
-gpio.cleanup()
