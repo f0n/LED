@@ -43,6 +43,17 @@ h2.accordion a {
     border-radius: 5px;
 }
 
+
+#motor {
+    height: 46px;
+    line-height: 46px;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: bold;
+    float: left;
+    
+}
+
 h2.accordion a:hover {
     color: #FFFFFF;
     background: #990033;
